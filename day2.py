@@ -13,7 +13,7 @@ for set in data:
         valid_sets+=1
 print(f" p1 valid set : {valid_sets}") #341
 
-#p2
+#p2 doot
 def is_set_valid(set):
     return all(i < j and abs(i-j)<=3 for i, j in zip(set, set[1:])) or all(i > j and abs(i-j)<=3 for i, j in zip(set, set[1:]))
 
